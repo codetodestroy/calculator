@@ -9,6 +9,12 @@
 
     <title>Calculator</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="./css/style.css">
 
     <script src="./js/script.js" defer></script>
@@ -17,16 +23,16 @@
 <body>
     <section id="calc">
         <section id="box-result">
-            <span id="total"></span>
-            <span id="result">0</span>
+            <span id="total">434354 =</span>
+            <span id="result">43434</span>
         </section>
         <section id="box-keys">
             <button class="key operator">%</button> <!-- Porcentagem -->
             <button class="key operator">CE</button> <!-- Apaga a segunda operação -->
             <button class="key operator">C</button> <!-- Apaga a operação -->
-            <button class="key operator">&#60;</button> <!-- Apaga digito -->
+            <button class="key operator erase">⌫</button> <!-- Apaga digito -->
             <button class="key operator">&#188;</button> <!-- Fração -->
-            <button class="key operator">x*</button> <!-- Potênciação  -->
+            <button class="key operator">x<sup>y</sup></button> <!-- Potênciação  -->
             <button class="key operator">&radic;</button> <!-- Raiz Quadrada -->
             <button class="key operator">&#247;</button> <!-- Divisão -->
             <button class="key number">7</button>
@@ -36,14 +42,14 @@
             <button class="key number">4</button>
             <button class="key number">5</button>
             <button class="key number">6</button>
-            <button class="key operator">&minus;</button> <!-- Subtração --> 
+            <button class="key operator">&minus;</button> <!-- Subtração -->
             <button class="key number">1</button>
             <button class="key number">2</button>
             <button class="key number">3</button>
-            <button class="key operator">&#43;</button> <!-- Soma --> 
-            <button class="key operator">+/-</button>
+            <button class="key operator">&#43;</button> <!-- Soma -->
+            <button class="key number">+/-</button>
             <button class="key number">0</button>
-            <button class="key operator">&comma;</button> <!-- Vírgula -->
+            <button class="key number">&comma;</button> <!-- Vírgula -->
             <button class="key operator equal">&equals;</button> <!-- Igual -->
         </section>
     </section>
